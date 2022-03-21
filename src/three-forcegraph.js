@@ -1,5 +1,4 @@
-import { Group } from 'three';
-const three = window.THREE ? window.THREE : { Group }; // Prefer consumption from global THREE, if exists
+const three = global.THREE;
 
 import ForceGraph from './forcegraph-kapsule.js';
 import fromKapsule from './utils/kapsule-class.js';

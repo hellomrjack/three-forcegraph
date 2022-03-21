@@ -1,44 +1,4 @@
-import {
-  Group,
-  Mesh,
-  MeshLambertMaterial,
-  Color,
-  BufferGeometry,
-  BufferAttribute,
-  Matrix4,
-  Vector3,
-  SphereBufferGeometry,
-  CylinderBufferGeometry,
-  TubeBufferGeometry,
-  ConeBufferGeometry,
-  Line,
-  LineBasicMaterial,
-  QuadraticBezierCurve3,
-  CubicBezierCurve3,
-  Box3
-} from 'three';
-
-const three = window.THREE
-  ? window.THREE // Prefer consumption from global THREE, if exists
-  : {
-    Group,
-    Mesh,
-    MeshLambertMaterial,
-    Color,
-    BufferGeometry,
-    BufferAttribute,
-    Matrix4,
-    Vector3,
-    SphereBufferGeometry,
-    CylinderBufferGeometry,
-    TubeBufferGeometry,
-    ConeBufferGeometry,
-    Line,
-    LineBasicMaterial,
-    QuadraticBezierCurve3,
-    CubicBezierCurve3,
-    Box3
-  };
+const three = window.THREE;
 
 import {
   forceSimulation as d3ForceSimulation,
